@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background: #efefef;
+    margin: 0;
+    padding: 0;
+    animation: bgColor 20s ease infinite;
+}
+
+#main {
+    background: rgba(0, 0, 0, .7);
+    color: #fff;
+    padding: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*アニメーション*/
+@keyframes bgColor {
+    0%{
+        background: #c56fa6;
+    }
+    25% {
+        background: #61a947;
+    }
+    50% {
+        background: #6c7cb5;
+    }
+    75% {
+        background: #c2d000;
+    }
+    100% {
+        background: #c56fa6;
+    }
+
+}
