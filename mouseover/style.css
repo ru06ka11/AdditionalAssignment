@@ -38,7 +38,7 @@ body {
     height: 100%;
     position: absolute;
     z-index: -1;
-    transition: all 1.0s ease-out;
+    transition: all 0.4s ease-out;
 }
 
 .menu .menu-list .menu-item a:hover {
@@ -50,7 +50,7 @@ body {
 }
 
 .menu .menu-list .menu-item:first-child a {
-    border-left: #FF9055 15px solid;
+    border-left: #FF9055 8px solid;
 }
 
 .menu .menu-list .menu-item:first-child a:before {
@@ -58,7 +58,7 @@ background-color: #FF9055;
 }
 
 .menu .menu-list .menu-item:nth-child(2) a{
-    border-left: #55B1FF 15px solid;
+    border-left: #55B1FF 8px solid;
 }
 
 .menu .menu-list .menu-item:nth-child(2) a:before {
@@ -66,9 +66,25 @@ background-color: #FF9055;
 }
 
 .menu .menu-list .menu-item:nth-child(3) a{
-    border-left: #C455FF 15px solid;
+    border-left: #C455FF 8px solid;
 }
 
 .menu .menu-list .menu-item:nth-child(3) a:before {
     background-color: #C455FF;
+}
+
+.menu .menu-list .menu-item:nth-child(4) a {
+    border-left: #ff5555 8px solid;
+}
+
+.menu .menu-list .menu-item:nth-child(4) a:before {
+    background-color: #ff5555;
+}
+
+.menu .menu-list .menu-item:nth-child(5) a {
+    border-left: #6fc967 8px solid;
+}
+
+.menu .menu-list .menu-item:nth-child(5) a:before {
+    background-color: #6fc947;
 }
