@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+    background: #efefef;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*ヘッダー*/
+#header {
+    background: #c56fa6;
+    color: #fff;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 1em;
+    letter-spacing: 0.1em;
+}
+
+/*メインコンテンツ*/
+#main {
+    background: #fff;
+    width: 85%;
+    height: 100vh;
+    margin: 2em auto;
+    padding: 2em;
+}
+
+/*フッター*/
+#footer {
+    background: #000;
+    color: #fff;
+    font-size: 0.7em;
+    margin: 0;
+    padding: 2rem;
+}
+
+/*フェードイン*/
+.fadeIn {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+}
+
+/*フェードアップ*/
+.fadeUp {
+    opacity: 0;
+    animation-name: fadeUp;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: .25s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
