@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu {
+    background-color: #efefef;
+}
+
+.menu .menu-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu .menu-list .menu-item {
+    border-bottom: #e0e0e0 1px solid;
+}
+
+.menu .menu-list .menu-item a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.5rem 1.25rem;
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+}
+
+.menu .menu-list .menu-item a:before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transition: all 1.0s ease-out;
+}
+
+.menu .menu-list.menu-item a:hover {
+    color: #ffffff;
+}
+
+.menu .menu-list.menu-item a:hover:before {
+    width: 100%;
+}
+
+.menu .menu-list .menu-item:first-child a {
+    border-left: #FF9055 15px solid;
+}
+
+.menu .menu-list.menu-item:first-child a:before {
+background-color: #FF9055;
+}
+
+.menu .menu-list .menu-item:nth-child(2) a{
+    border-left: #55B1FF 15px solid;
+}
+
+.menu .menu-list .menu-item:nth-child(2) a:before {
+    background-color: #55B1FF;
+}
+
+.menu .menu-list .menu-item:nth-child(3) a{
+    border-left: #C455FF 15px solid;
+}
+
+.menu .menu-list .menu-item:nth-child(3) a:before {
+    background-color: #C455FF;
+}
