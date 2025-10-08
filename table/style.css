@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    margin-top: 5em;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    color: #666;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: solid 1px #666;
+}
+
+th,td {
+    padding: 1em;
+    border: solid 1px #666;
+}
+
+th {
+    color: #fff;
+    background-color: #a5c196;
+}
+
+tr:hover td {
+    cursor: pointer;
+    background-color: #ffe79f;
+}
+
+table td:hover {
+    background-color: #feffb3;/*重なった色の指定*/
+}
